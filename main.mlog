@@ -1,0 +1,7 @@
+# Reading the camera position from input
+read cam.px cell1 0
+read cam.py cell1 1
+read cam.pz cell1 2
+read cam.rx cell1 3
+read cam.ry cell1 4
+read cam.rz cell1 5
