@@ -1,7 +1,12 @@
-# Reading the camera position from input
-read cam.px cell1 0
+read cam.px cell1 0 # Reading the camera position from input
 read cam.py cell1 1
 read cam.pz cell1 2
 read cam.rx cell1 3
 read cam.ry cell1 4
 read cam.rz cell1 5
+set obj.n 1
+jump 11 greaterThanEq 16 # Processing objects
+op mul num obj.n 8
+read obj.x cell1 
+op sum objn objn 1
+write 1 cell2 0 # Notify display controller that processing is done
