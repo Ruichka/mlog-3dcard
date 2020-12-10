@@ -1,3 +1,5 @@
+**Note: The project is not done and is frozen for unknown time.**
+
 # mlogic-3dcard
 Mindustry 3D videocard driver written on Mindustry Logic.
 
